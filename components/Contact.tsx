@@ -1,7 +1,7 @@
 import Waveform from "./Waveform";
 
 const SOCIALS = [
-  { label: "Instagram", href: "https://instagram.com/abrahamda" },
+  { label: "Instagram", href: "https://instagram.com/abraham_da02" },
   { label: "YouTube", href: "https://youtube.com/@abrahamda" },
   { label: "LinkedIn", href: "https://linkedin.com/in/abrahamda" },
 ];
@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden bg-forest py-24 text-paper sm:py-32"
+      className="scroll-mt-20 relative overflow-hidden bg-forest pt-16 pb-8 text-paper sm:py-35"
     >
       <Waveform
         color="var(--paper)"
@@ -22,8 +22,8 @@ export default function Contact() {
           03 — Contact
         </span>
 
-        <h2 className="mt-4 max-w-2xl font-display text-4xl italic leading-tight sm:text-6xl">
-          Mari ciptakan sesuatu yang layak dikenang.
+        <h2 className="mt-4 max-w-2xl font-display text-4xl italic leading-none sm:text-6xl">
+          Let's Make Something Sound Right.
         </h2>
 
         <div className="mt-16 grid grid-cols-1 gap-10 sm:grid-cols-3">
@@ -47,7 +47,7 @@ export default function Contact() {
               href="https://wa.me/6281234567890"
               className="mt-3 block text-lg hover:opacity-70"
             >
-              +62 812-3456-7890
+              +62 812-3263-5957
             </a>
           </div>
 
@@ -72,7 +72,7 @@ export default function Contact() {
         </div>
 
         <p className="mt-16 text-xs uppercase tracking-[0.15em] text-paper/50">
-          Berbasis di Jakarta, Indonesia — bekerja untuk klien di mana saja.
+          Based in Tangerang — sound travels anywhere
         </p>
       </div>
     </section>

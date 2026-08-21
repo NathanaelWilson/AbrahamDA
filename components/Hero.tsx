@@ -15,22 +15,22 @@ export default function Hero() {
           Available for new scores — 2026
         </p>
 
-        <h1 className="font-display leading-[0.92] text-[clamp(3rem,11vw,9rem)]">
+        <h1 className="font-display leading-[0.75] text-[clamp(3rem,11vw,9rem)]">
           Abraham
           <br />
-          <span className="italic font-light text-forest">Da</span>
+          <span className="italic font-light text-forest text-[clamp(2.5rem,10vw,8rem)]">D. A.</span>
         </h1>
 
         <div className="mt-8 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <p className="max-w-md text-lg text-ink-soft">
-            Music Composer &amp; Sound Designer — menerjemahkan cerita
-            menjadi bunyi, untuk layar, panggung, dan ruang dengar.
+            Music Composer &amp; Sound Designer — 
+            <span className="italic">Where every story finds its sound</span>
           </p>
           <a
             href="#portfolio"
             className="group inline-flex w-fit items-center gap-2 border-b border-ink pb-1 text-sm uppercase tracking-[0.15em] transition-colors hover:border-forest hover:text-forest"
           >
-            Lihat Karya
+            Hear the Work
             <span className="transition-transform group-hover:translate-y-1">
               ↓
             </span>

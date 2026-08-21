@@ -15,7 +15,7 @@ export default function PortfolioPreview() {
               02 — Portfolio
             </span>
             <h2 className="mt-4 font-display text-4xl italic sm:text-5xl">
-              Karya Terpilih
+              Featured Works
             </h2>
           </div>
         </div>

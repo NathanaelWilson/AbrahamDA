@@ -1,6 +1,6 @@
 const DETAILS = [
   { label: "Role", value: "Music Composer & Sound Designer" },
-  { label: "Domisili", value: "Jakarta, Indonesia" },
+  { label: "Domicile", value: "Tangerang, Indonesia" },
   { label: "Email", value: "hello@abrahamda.com" },
 ];
 
@@ -13,24 +13,21 @@ export default function About() {
             01 — About
           </span>
           <h2 className="mt-4 font-display text-4xl italic sm:text-5xl">
-            Tentang
+            About
           </h2>
         </div>
 
         <div className="sm:col-span-8">
           <p className="font-display text-2xl leading-relaxed sm:text-3xl">
-            Musik, bagi saya, adalah{" "}
-            <em className="text-forest not-italic border-b border-forest">
-              instruksi untuk merasakan
+            Music has always been{" "}
+            <em className="text-forest italic border-b border-forest">
+              the language I trust most.
             </em>{" "}
-            — bukan pelengkap di atas cerita, melainkan struktur tak
-            terlihat yang menuntun bagaimana cerita itu dijalani.
+            Over the years, composing for film, stage, and interactive media has taught me 
+            that the best scores don't just support a story — they become part of how it's remembered.
           </p>
           <p className="mt-6 max-w-xl text-ink-soft leading-relaxed">
-            Saya bekerja lintas medium — dari scoring untuk iklan dan film,
-            merancang identitas bunyi untuk brand, hingga memproduksi karya
-            musik personal. Setiap proyek dimulai dari satu pertanyaan
-            sederhana: rasa apa yang ingin disampaikan.
+            Every project starts the same way: listening closely, then finding the sound that belongs there, and nowhere else.
           </p>
 
           <dl className="mt-12 grid grid-cols-1 gap-6 border-t border-line pt-8 sm:grid-cols-3">

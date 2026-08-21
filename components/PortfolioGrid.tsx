@@ -41,7 +41,7 @@ export default function PortfolioGrid({ projects }: { projects: Project[] }) {
         ))}
       </div>
 
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-8 sm:[grid-auto-flow:dense] sm:auto-rows-[180px]">
+      <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-8 sm:[grid-auto-flow:dense] sm:auto-rows-[220px]">
         {filtered.map((project) => (
           <button
             key={project.slug}
