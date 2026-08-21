@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="scroll-mt-20 relative overflow-hidden bg-forest pt-16 pb-8 text-paper sm:py-35"
+      className="scroll-mt-20 relative overflow-hidden bg-forest pt-20 pb-8 text-paper sm:py-35"
     >
       <Waveform
         color="var(--paper)"
@@ -23,7 +23,9 @@ export default function Contact() {
         </span>
 
         <h2 className="mt-4 max-w-2xl font-display text-4xl italic leading-none sm:text-6xl">
-          Let's Make Something Sound Right.
+          Let's Make Something 
+          <br />
+          <span className="italic"> Sound Right.</span>
         </h2>
 
         <div className="mt-16 grid grid-cols-1 gap-10 sm:grid-cols-3">

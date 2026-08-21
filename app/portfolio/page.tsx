@@ -21,11 +21,11 @@ export default function PortfolioPage() {
             Portfolio
           </span>
           <h1 className="mt-4 font-display text-5xl italic sm:text-7xl">
-            Karya &amp; Kolaborasi
+            Project &amp; Collaboration
           </h1>
           <p className="mt-6 max-w-lg text-ink-soft">
-            Kumpulan proyek scoring, sound design, dan produksi musik.
-            Klik pada tiap karya untuk memutar video.
+            A collection of scoring, sound design, and music production work.
+            Click on each piece to watch it come to life.
           </p>
         </div>
       </section>
