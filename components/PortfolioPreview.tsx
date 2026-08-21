@@ -2,7 +2,7 @@ import Link from "next/link";
 import { projects } from "@/lib/data";
 
 const featured = projects.filter((p) =>
-  ["senja-di-ufuk", "malam-tanpa-nama"].includes(p.slug)
+  ["senja-di-ufuk", "langkah-pertama"].includes(p.slug)
 );
 
 export default function PortfolioPreview() {
@@ -29,11 +29,7 @@ export default function PortfolioPreview() {
                 i === featured.length - 1 ? "border-b" : ""
               }`}
             >
-              <div
-                className={`order-2 sm:order-none sm:col-span-3 flex items-baseline gap-4 ${
-                  i % 2 === 1 ? "sm:col-start-10" : ""
-                }`}
-              >
+              <div className="order-2 sm:order-none sm:col-span-3 flex items-baseline gap-4">
                 <span className="font-display text-lg italic text-ink-soft">
                   0{i + 1}
                 </span>
@@ -42,11 +38,7 @@ export default function PortfolioPreview() {
                 </span>
               </div>
 
-              <div
-                className={`order-1 sm:order-none sm:col-span-6 ${
-                  i % 2 === 1 ? "sm:col-start-4 sm:row-start-1" : ""
-                }`}
-              >
+              <div className="order-1 sm:order-none sm:col-span-6">
                 <h3 className="font-display text-3xl transition-colors group-hover:text-forest sm:text-4xl">
                   {project.title}
                 </h3>
